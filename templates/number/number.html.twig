@@ -1,0 +1,37 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello NumberController!
+{% endblock %}
+
+{% block body %}
+	<style>
+		.example-wrapper {
+			margin: 1em auto;
+			max-width: 800px;
+			width: 95%;
+			font: 18px / 1.5 sans-serif;
+		}
+		.example-wrapper code {
+			background: #F5F5F5;
+			padding: 2px 6px;
+		}
+		button {
+			padding: 20px 40px;
+			font-size: 20px;
+			background: radial-gradient(circle, rgba(34,193,195,1) 15%, rgba(45,253,132,1) 55%);
+			border-radius: 10px;
+			border: 1px solid yellow;
+			color: yellow;
+		}
+	</style>
+
+	<div class="example-wrapper">
+		<h1>Hello
+																																																															Lucky Number! ✅</h1>
+
+		Yout Lucky Number today is:
+		<button>{{luckyNumber}}</button>
+
+
+	</div>
+{% endblock %}
